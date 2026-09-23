@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>JavaScript 30: Validate name, email, phone and password</title><link rel="stylesheet" href="../assets.css"></head>
+<body><header><div class="container"><h1>JavaScript 30: Validate name, email, phone and password</h1><nav><a href="../index.html">Home</a><a href="index.html">Back to Programs</a></nav></div></header>
+<main class="container"><div class='card'><p class='badge'>JavaScript Practical 30</p><p>Validate name, email, phone and password.</p><div class='demo'><input id="name" placeholder="Name"><input id="email" placeholder="Email"><input id="phone" placeholder="Phone"><input id="pass" type="password" placeholder="Password"><button onclick="let ok=name.value.length>=2&&email.value.includes('@')&&/^\d{10}$/.test(phone.value)&&pass.value.length>=6;out.textContent=ok?'All fields valid':'Please check your fields'">Validate</button><p id="out"></p></div></div></main><footer>HTML, CSS & JavaScript Practical Programs</footer></body></html>
